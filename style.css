@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url();
+  min-height: 92vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.header h4 {
+  color: red;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.appmain {
+  min-height: 10vh;
+  width: 30vw;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px solid black;
+  border-radius: 20px;
+  background: #c0dfec;
+  background: -webkit-linear-gradient(to top, #92fe9d, #c0dfec);
+}
+.appmain > * {
+  margin-bottom: 20px;
+}
+#input-box {
+  width: 100%;
+  background: azure;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: red;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: bisque;
+  display: none;
+  background: linear-gradient(to top, yellow, coral);
+}
+.location-details {
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: bold;
+  font-weight: 700;
+}
+.weather {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .appmain {
+    width: 90%;
+    padding: 10px;
+  }
+  body {
+    min-height: 94vh;
+  }
+}
